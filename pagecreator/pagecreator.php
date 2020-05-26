@@ -9,8 +9,6 @@
 
 <body>
     <?php
-    $i = 0;
-    $id = null;
     for ($i = 0; $i < 10; $i++) {
         $id .= mt_rand(0, 9);
     }
